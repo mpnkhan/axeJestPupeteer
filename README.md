@@ -1,2 +1,2 @@
-# monitoring
-Some test cases for site monitoring
+# A skeletal template for axe evaluation with jest and pupeteer 
+Write your own test cases

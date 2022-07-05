@@ -1,0 +1,19 @@
+{
+  "name": "Monitoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "jest"
+  },
+  "author": "",
+  "license": "GPL",
+  "dependencies": {
+    "jest": "^28.1.2",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^15.2.0"
+  },
+  "devDependencies": {
+    "axe-core": "^4.4.2"
+  }
+}

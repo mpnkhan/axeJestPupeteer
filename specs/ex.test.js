@@ -1,6 +1,6 @@
-let credentials = require( '../utils/credentials' )();
-let loginAccount = require( '../actions/loginAccount' );
 let runAxe = require( '../actions/runAxe' );
+
+jest.setTimeout(60000)
 
 jest.setTimeout(60000)
 

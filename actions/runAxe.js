@@ -7,25 +7,23 @@ class runAxe {
 
   async evalPage (options) {
     try {
-      let {...axeOptions} = options || {}
+      let {...axeOptions} = options || {};
+      const includedImpacts = ['critical', 'serious'];
       await this.page.addScriptTag({path: require.resolve('axe-core')})
-
-/*
-      const results = await this.page.evaluate((axeOptions) => {
-         return window.axe.run(window.document, axeOptions);
-         // return window.document.title
-      }, axeOptions);
-
-
-*/
-
       const accessibilityReport = await this.page.evaluate(axeOptions => {
         return new Promise(resolve => {
           setTimeout(resolve, 0);
-        }).then(() => window.axe.run(axeOptions));
-      }, options);
-      return accessibilityReport;
+        })
+        .then(() => window.axe.run(axeOptions))
+        .then(({ violations }) => {
+          return violations;
 
+         })
+      }, options);
+
+       return accessibilityReport.filter(function (el) {
+                  return includedImpacts && includedImpacts.includes(el.impact)
+        });          
     } catch ( err ) {
       console.log( err );
     }

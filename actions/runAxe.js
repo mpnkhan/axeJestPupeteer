@@ -8,6 +8,7 @@ class runAxe {
   async evalPage (options) {
     try {
       let {...axeOptions} = options || {};
+      // comsole.log(axeOptions)
       const includedImpacts = ['critical', 'serious'];
       await this.page.addScriptTag({path: require.resolve('axe-core')})
       const accessibilityReport = await this.page.evaluate(axeOptions => {
@@ -27,7 +28,8 @@ class runAxe {
     } catch ( err ) {
       console.log( err );
     }
-  }
-}
+  } //evalPage
+
+} //endClass
 
 module.exports = ( page ) => new runAxe( page );

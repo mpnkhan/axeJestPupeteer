@@ -1,6 +1,5 @@
 let runAxe = require( '../actions/runAxe' );
-
-jest.setTimeout(60000)
+let saveJson = require( '../actions/saveJson' );
 
 jest.setTimeout(60000)
 
@@ -13,19 +12,30 @@ describe('Basic authentication e2e tests', () => {
       deviceScaleFactor: 1
     } );
 
+  }); //beforeAll
 
-    await page.goto('https://www.paypal.com/us/home', {
-    // await page.goto('https://www.google.com', {
-      waitUntil: 'domcontentloaded',
-    });
-      runAxe = await runAxe( page );
+  it( 'PayPal Signup Flow', async () => {
 
-    } );
+     const navigationPromise = page.waitForNavigation();
+      await page.goto('https://www.paypal.com/us/home');    //,{waitUntil: 'networkidle2'});
+      await page.waitForSelector('#signup-button')
+      let results = await runAxe(page).evalPage();
+      // console.log('results1', results)
+      await page.screenshot({path: 'home.png'});
+      if(results && results.length>0){
+        saveJson.addModifyrunDetails('paypal','homepage', results);
+      }
 
-  it( 'Should be able to eval with axe in', async () => {
-    const results = await runAxe.evalPage();
-    console.log(results)
-    await page.screenshot({path: 'example.png'});
+      await page.click('#signup-button')
+      await navigationPromise;
+      // await page.waitForSelector('.account-selection-cards-inner-container-radio')
+      results =  await runAxe(page).evalPage();
+      // console.log('results2', results)
+      await page.screenshot({path: 'account_selection.png'});
+      if(results && results.length>0){
+        saveJson.addModifyrunDetails('paypal','account_selection', results);
+      }
+    
     return true
   } );
 

@@ -1,0 +1,18 @@
+{
+    "runs": [
+        {
+            "projectname": "paypal",
+            "testname": "homepage",
+            "date": "2022-11-30 07:23:33",
+            "errorcount": 1,
+            "issueid": "reports/paypal/homepage.json"
+        },
+        {
+            "projectname": "paypal",
+            "testname": "account_selection",
+            "date": "2022-11-30 07:23:35",
+            "errorcount": 1,
+            "issueid": "reports/paypal/account_selection.json"
+        }
+    ]
+}

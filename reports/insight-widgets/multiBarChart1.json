@@ -1,0 +1,131 @@
+[
+    {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag131"
+        ],
+        "description": "Ensures aria-hidden elements are not focusable nor contain focusable elements",
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/aria-hidden-focus?application=axeAPI",
+        "nodes": [
+            {
+                "any": [],
+                "all": [
+                    {
+                        "id": "focusable-not-tabbable",
+                        "data": null,
+                        "relatedNodes": [
+                            {
+                                "html": "<a class=\"inline-button-theme inline-button inline-button-size-small arrow-icon-active-hover\" href=\"https://www.paypal.com/us/business\" target=\"_self\" aria-label=\"More about our Business account\" data-pa-click=\"{&quot;link&quot;:&quot;CardContentSectionItem-Primary-More about our Business account&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\">",
+                                "target": [
+                                    "div[aria-label=\"Slide 2 of 2\"] > .card-content-section-item.false.card-content-section-item-single-card > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(3) > .button-group-align-start.text-group-action-group.button-group > .inline-button-size-small.inline-button-theme.inline-button"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Focusable content should have tabindex='-1' or be removed from the DOM"
+                    }
+                ],
+                "none": [],
+                "impact": "serious",
+                "html": "<div role=\"group\" aria-roledescription=\"slide\" aria-label=\"Slide 2 of 2\" aria-hidden=\"true\" class=\"carousel-slide\" data-pa-click=\"{&quot;link&quot;:&quot;Carousel-Primary&quot;,&quot;event_name&quot;:&quot;ppcom_carousel_slide_button_clicked&quot;}\">",
+                "target": [
+                    "div[aria-label=\"Slide 2 of 2\"]"
+                ],
+                "failureSummary": "Fix all of the following:\n  Focusable content should have tabindex='-1' or be removed from the DOM"
+            }
+        ]
+    },
+    {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=axeAPI",
+        "nodes": [
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#e2e2e3",
+                            "bgColor": "#e0e0e1",
+                            "contrastRatio": 1.02,
+                            "fontSize": "12.0pt (16px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div id=\"ccpaCookieBanner\" class=\"ccpaCookieBanner_container ccpaCookieBanner_container-custom\">",
+                                "target": [
+                                    "#ccpaCookieBanner"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.02 (foreground color: #e2e2e3, background color: #e0e0e1, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a id=\"manageCookiesLink\" href=\"https://www.paypal.com/myaccount/privacy/cookiePrefs?locale=en_US\" pagename=\"Digital Wallets, Money Management, and More | PayPal US|managecookies\">Learn more and manage your cookies</a>",
+                "target": [
+                    "#manageCookiesLink"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.02 (foreground color: #e2e2e3, background color: #e0e0e1, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#edf5fa",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 1.1,
+                            "fontSize": "9.8pt (13px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<button id=\"acceptAllButton\" class=\"ccpa_btn ccpa_btn_reversed ccpaCookieBanner_button ccpaCookieBanner_button-custom\" pagename=\"Digital Wallets, Money Management, and More | PayPal US|acceptcookies\">Yes, Accept Cookies<span class=\"ccpaCookieBanner_acceptButton_arrow\"></span></button>",
+                                "target": [
+                                    "#acceptAllButton"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.1 (foreground color: #edf5fa, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<button id=\"acceptAllButton\" class=\"ccpa_btn ccpa_btn_reversed ccpaCookieBanner_button ccpaCookieBanner_button-custom\" pagename=\"Digital Wallets, Money Management, and More | PayPal US|acceptcookies\">Yes, Accept Cookies<span class=\"ccpaCookieBanner_acceptButton_arrow\"></span></button>",
+                "target": [
+                    "#acceptAllButton"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #edf5fa, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+        ]
+    }
+]

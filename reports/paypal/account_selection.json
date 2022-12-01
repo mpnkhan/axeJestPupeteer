@@ -1,0 +1,50 @@
+[
+    {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=axeAPI",
+        "nodes": [
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#f8fbfd",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 1.04,
+                            "fontSize": "9.8pt (13px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<button id=\"acceptAllButton\" class=\"ccpa_btn ccpa_btn_reversed ccpaCookieBanner_button ccpaCookieBanner_button-custom\">Yes, Accept Cookies<span class=\"ccpaCookieBanner_acceptButton_arrow\"></span></button>",
+                                "target": [
+                                    "#acceptAllButton"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.04 (foreground color: #f8fbfd, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<button id=\"acceptAllButton\" class=\"ccpa_btn ccpa_btn_reversed ccpaCookieBanner_button ccpaCookieBanner_button-custom\">Yes, Accept Cookies<span class=\"ccpaCookieBanner_acceptButton_arrow\"></span></button>",
+                "target": [
+                    "#acceptAllButton"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.04 (foreground color: #f8fbfd, background color: #ffffff, font size: 9.8pt (13px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1788 @@
+[
+    {
+        "id": "color-contrast",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "help": "Elements must have sufficient color contrast",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/color-contrast?application=axeAPI",
+        "nodes": [
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#7388b3",
+                            "bgColor": "#93a6c9",
+                            "contrastRatio": 1.44,
+                            "fontSize": "32.5pt (43.3516px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"split-graphic-background pp-com-uz2jo3\" style=\"opacity: 0.411233;\">",
+                                "target": [
+                                    ".pp-com-uz2jo3"
+                                ]
+                            },
+                            {
+                                "html": "<section class=\"split-graphic-section split-graphic-section-image-position-end section-wrapper white-plate grid pp-com-1b5v41b\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".split-graphic-section-image-position-end"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.44 (foreground color: #7388b3, background color: #93a6c9, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-3\">Send money across the table or across the globe</h3>",
+                "target": [
+                    ".pp-com-1yopcpu > .text-group-alignment-start.text-group > div > .heading-text-size-headline-3"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.44 (foreground color: #7388b3, background color: #93a6c9, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#739dd0",
+                            "bgColor": "#93c1ee",
+                            "contrastRatio": 1.48,
+                            "fontSize": "32.5pt (43.3516px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"split-graphic-background pp-com-1s46ilu\" style=\"opacity: 0.411233;\">",
+                                "target": [
+                                    ".pp-com-1s46ilu"
+                                ]
+                            },
+                            {
+                                "html": "<section class=\"split-graphic-section split-graphic-section-image-position-start section-wrapper white-plate grid pp-com-1b5v41b\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".split-graphic-section-image-position-start"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.48 (foreground color: #739dd0, background color: #93c1ee, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-3\">Make your money go further and further</h3>",
+                "target": [
+                    ".pp-com-1nc6prv > .text-group-alignment-start.text-group > div > .heading-text-size-headline-3"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #739dd0, background color: #93c1ee, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3b37d",
+                            "bgColor": "#f9dd84",
+                            "contrastRatio": 1.55,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"text-section text-section-background-color-gold section-wrapper gold-plate grid pp-com-1659pe6\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".text-section"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.55 (foreground color: #c3b37d, background color: #f9dd84, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-2\">Send money securely around the world. Pay later nearly everywhere you shop. Support causes that matter to you. Explore crypto. <b>Who knew one app could be so mighty?</b></h3>",
+                "target": [
+                    ".text-section-item > .text-group-alignment-start.text-group > div > .heading-text-size-headline-2"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.55 (foreground color: #c3b37d, background color: #f9dd84, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c598",
+                            "bgColor": "#f9dd84",
+                            "contrastRatio": 1.33,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"text-section text-section-background-color-gold section-wrapper gold-plate grid pp-com-1659pe6\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".text-section"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.33 (foreground color: #c3c598, background color: #f9dd84, font size: 38.8pt (51.6852px), font weight: bold). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<b>Who knew one app could be so mighty?</b>",
+                "target": [
+                    "b"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.33 (foreground color: #c3c598, background color: #f9dd84, font size: 38.8pt (51.6852px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h2 class=\"text-group-headline heading-text-size-headline-2\">Choose your PayPal shopping experience</h2>",
+                "target": [
+                    ".pp-com-10nu8ts > .split-section-headline-col.pp-com-1oyljqb > .text-group-alignment-center.text-group > div > h2"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h2 class=\"text-group-headline heading-text-size-headline-2\">A rewards program that pays</h2>",
+                "target": [
+                    ".text-group-alignment-end > div:nth-child(1) > h2"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "11.5pt (15.3471px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 11.5pt (15.3471px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body\">",
+                "target": [
+                    ".text-group-alignment-end > div:nth-child(2) > .body-text-size-body.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 11.5pt (15.3471px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3dbf2",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.34,
+                            "fontSize": "15.0pt (20px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-button-theme inline-button inline-button-size-large arrow-icon-active-hover\" href=\"https://www.paypal.com/us/digital-wallet/ways-to-pay/rewards-points\" target=\"_self\" aria-label=\"About PayPal Rewards\" data-pa-click=\"{&quot;link&quot;:&quot;SplitSection-Primary-About PayPal Rewards&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\" pa-marked=\"1\">",
+                "target": [
+                    "a[aria-label=\"About PayPal Rewards\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "32.5pt (43.3516px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-3\">Buy what you love now. Pay later.</h3>",
+                "target": [
+                    ".pp-com-1pppbk5 > .text-group-alignment-start.text-group > div:nth-child(1) > .heading-text-size-headline-3"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "12.8pt (17.0321px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body-large\">Split your purchase into 4 interest-free payments with no late fees, or buy bigger and pay smaller with monthly installments.<sup>2</sup></p>",
+                "target": [
+                    ".pp-com-1pppbk5 > .text-group-alignment-start.text-group > div:nth-child(2) > .body-text-size-body-large.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3dbf2",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.34,
+                            "fontSize": "15.0pt (20px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-button-theme inline-button inline-button-size-large arrow-icon-active-hover\" href=\"https://www.paypal.com/us/digital-wallet/ways-to-pay/buy-now-pay-later\" target=\"_self\" aria-label=\"Buy now, pay later\" data-pa-click=\"{&quot;link&quot;:&quot;SplitSection-Primary-Buy now, pay later&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\" pa-marked=\"1\">",
+                "target": [
+                    "a[aria-label=\"Buy now, pay later\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "32.5pt (43.3516px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-3\">PayPal Cashback Mastercard<sup>®</sup></h3>",
+                "target": [
+                    ".pp-com-1mwtd2c > .text-group-alignment-start.text-group > div:nth-child(1) > .heading-text-size-headline-3"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "12.8pt (17.0321px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body-large\">Shop with the new PayPal Cashback Mastercard<sup>®</sup> to earn unlimited 3% cash back<sup>3</sup> on PayPal purchases and unlimited 2% on all other eligible purchases. No restrictions, rotating categories, or annual fee.<sup>4</sup></p>",
+                "target": [
+                    ".pp-com-1mwtd2c > .text-group-alignment-start.text-group > div:nth-child(2) > .body-text-size-body-large.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#375da1",
+                            "bgColor": "#003087",
+                            "contrastRatio": 1.82,
+                            "fontSize": "13.5pt (18px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<a class=\"button-type-primary pp-com-ngwies-button_base-text_button_lg\" data-ppui-info=\"buttons_6.1.0\" target=\"_self\" href=\"https://www.paypal.com/credit-application/co/landing?present=clpCOB32CONTROL&amp;track=cltHOMEPAGE2022\" data-pa-click=\"{&quot;link&quot;:&quot;SplitSection-Primary-Apply Now&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" pa-marked=\"1\">",
+                                "target": [
+                                    ".pp-com-1mwtd2c > .text-group-alignment-start.text-group > div:nth-child(3) > .button-group-align-start.text-group-action-group.button-group > .button-type-primary.pp-com-ngwies-button_base-text_button_lg[data-ppui-info=\"buttons_6.1.0\"]"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.82 (foreground color: #375da1, background color: #003087, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"button-type-primary pp-com-ngwies-button_base-text_button_lg\" data-ppui-info=\"buttons_6.1.0\" target=\"_self\" href=\"https://www.paypal.com/credit-application/co/landing?present=clpCOB32CONTROL&amp;track=cltHOMEPAGE2022\" data-pa-click=\"{&quot;link&quot;:&quot;SplitSection-Primary-Apply Now&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" pa-marked=\"1\">",
+                "target": [
+                    ".pp-com-1mwtd2c > .text-group-alignment-start.text-group > div:nth-child(3) > .button-group-align-start.text-group-action-group.button-group > .button-type-primary.pp-com-ngwies-button_base-text_button_lg[data-ppui-info=\"buttons_6.1.0\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.82 (foreground color: #375da1, background color: #003087, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3dbf2",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.34,
+                            "fontSize": "13.5pt (18px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"button-type-tertiary pp-com-1llmdmr-tertiary-text_button_lg\" data-ppui-info=\"buttons_6.1.0\" target=\"_self\" href=\"https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard\" data-pa-click=\"{&quot;link&quot;:&quot;SplitSection-Tertiary-Learn more&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" pa-marked=\"1\">",
+                "target": [
+                    ".button-type-tertiary"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h2 class=\"text-group-headline heading-text-size-headline-2\">Add extra savings to your cart at checkout</h2>",
+                "target": [
+                    ".pp-com-1h8vqlb > .text-group-alignment-start.text-group > div:nth-child(1) > h2"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "11.5pt (15.3471px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 11.5pt (15.3471px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body\">Add the PayPal Honey shopping extension to your browser and we'll search for coupon codes and cash back<sup>1</sup> offers to get them automatically applied at checkout.</p>",
+                "target": [
+                    ".pp-com-1h8vqlb > .text-group-alignment-start.text-group > div:nth-child(2) > .body-text-size-body.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 11.5pt (15.3471px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3dbf2",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.34,
+                            "fontSize": "15.0pt (20px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"split-section section-wrapper white-plate grid pp-com-10nu8ts\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-10nu8ts"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-button-theme inline-button inline-button-size-large arrow-icon-active-hover\" href=\"https://www.paypal.com/us/digital-wallet/ways-to-pay/paypal-honey/\" target=\"_self\" aria-label=\"About the shopping extension\" data-pa-click=\"{&quot;link&quot;:&quot;SplitSection-Primary-About the shopping extension&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\" pa-marked=\"1\">",
+                "target": [
+                    "a[aria-label=\"About the shopping extension\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c3dbf2, background color: #f9f9f7, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"logo-type section-wrapper white-plate grid pp-com-hyjsgn\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".logo-type"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-2\">Shop your faves. Pay with PayPal.</h3>",
+                "target": [
+                    ".logo-type-content-col > .text-group-alignment-start.text-group > div > .heading-text-size-headline-2"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2c6d2",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.56,
+                            "fontSize": "32.5pt (43.3516px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-item-single-card card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-item-single-card"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-3\">Make your donations go further</h3>",
+                "target": [
+                    ".card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(1) > .heading-text-size-headline-3"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 32.5pt (43.3516px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2c6d2",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.56,
+                            "fontSize": "11.5pt (15.3471px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-item-single-card card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-item-single-card"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 11.5pt (15.3471px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body\">We’ll cover the transaction fees for qualifying charities when you give in our app or website.<sup>5</sup></p>",
+                "target": [
+                    ".card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(2) > .body-text-size-body.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 11.5pt (15.3471px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2d8ed",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.34,
+                            "fontSize": "15.0pt (20px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-item-single-card card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-item-single-card"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c2d8ed, background color: #f7f5f0, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-button-theme inline-button inline-button-size-large arrow-icon-active-hover\" href=\"https://www.paypal.com/fundraiser/hub\" target=\"_self\" data-pa-click=\"{&quot;link&quot;:&quot;CardContentSection-Primary-Donate now&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" pa-marked=\"1\">",
+                "target": [
+                    ".card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(3) > .button-group-align-start.text-group-action-group.button-group > .inline-button-size-large.inline-button-theme.inline-button"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c2d8ed, background color: #f7f5f0, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2c6d2",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.56,
+                            "fontSize": "27.3pt (36.4659px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-items-2 card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-items-2.card-content-section-item.false:nth-child(1)"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 27.3pt (36.4659px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h4 class=\"text-group-headline heading-text-size-headline-4\">Power up your side hustle</h4>",
+                "target": [
+                    ".card-content-section-items-2.card-content-section-item.false:nth-child(1) > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(1) > h4"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 27.3pt (36.4659px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2c6d2",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.56,
+                            "fontSize": "12.8pt (17.0321px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-items-2 card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-items-2.card-content-section-item.false:nth-child(1)"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body-large\">Spend your free time selling stuff in marketplaces or social media? Get paid like a pro with your PayPal Personal account.</p>",
+                "target": [
+                    ".card-content-section-items-2.card-content-section-item.false:nth-child(1) > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(2) > .body-text-size-body-large.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2d8ed",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.34,
+                            "fontSize": "12.0pt (16px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-items-2 card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-items-2.card-content-section-item.false:nth-child(1)"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c2d8ed, background color: #f7f5f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-button-theme inline-button inline-button-size-small arrow-icon-active-hover\" href=\"https://www.paypal.com/us/digital-wallet/send-receive-money/start-selling\" target=\"_self\" aria-label=\"Learn about getting paid with PayPal\" data-pa-click=\"{&quot;link&quot;:&quot;CardContentSection-Primary-Learn about getting paid with PayPal&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\">",
+                "target": [
+                    ".card-content-section-items-2.card-content-section-item.false:nth-child(1) > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(3) > .button-group-align-start.text-group-action-group.button-group > .inline-button-size-small.inline-button-theme.inline-button"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c2d8ed, background color: #f7f5f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2c6d2",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.56,
+                            "fontSize": "27.3pt (36.4659px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-items-2 card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-items-2.card-content-section-item.false:nth-child(2)"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 27.3pt (36.4659px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h4 class=\"text-group-headline heading-text-size-headline-4\">Take the next step for your business</h4>",
+                "target": [
+                    ".card-content-section-items-2.card-content-section-item.false:nth-child(2) > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(1) > h4"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 27.3pt (36.4659px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2c6d2",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.56,
+                            "fontSize": "12.8pt (17.0321px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-items-2 card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-items-2.card-content-section-item.false:nth-child(2)"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"text-group-paragraph body-text-size-body-large\">Sell using your business name, offer pay later options, apply for business financing—and more.</p>",
+                "target": [
+                    ".card-content-section-items-2.card-content-section-item.false:nth-child(2) > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(2) > .body-text-size-body-large.text-group-paragraph"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.56 (foreground color: #c2c6d2, background color: #f7f5f0, font size: 12.8pt (17.0321px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c2d8ed",
+                            "bgColor": "#f7f5f0",
+                            "contrastRatio": 1.34,
+                            "fontSize": "12.0pt (16px)",
+                            "fontWeight": "bold",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<div class=\"neutral-100-plate card-content-section-item false card-content-section-items-2 card-content-section-item-is-flushed-false\">",
+                                "target": [
+                                    ".card-content-section-items-2.card-content-section-item.false:nth-child(2)"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.34 (foreground color: #c2d8ed, background color: #f7f5f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-button-theme inline-button inline-button-size-small arrow-icon-active-hover\" href=\"https://www.paypal.com/us/business\" target=\"_self\" aria-label=\"More about our Business account\" data-pa-click=\"{&quot;link&quot;:&quot;CardContentSection-Primary-More about our Business account&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\">",
+                "target": [
+                    ".card-content-section-items-2.card-content-section-item.false:nth-child(2) > .card-content-section-item-text.text-group-alignment-start.text-group > div:nth-child(3) > .button-group-align-start.text-group-action-group.button-group > .inline-button-size-small.inline-button-theme.inline-button"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.34 (foreground color: #c2d8ed, background color: #f7f5f0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#c3c9d7",
+                            "bgColor": "#f9f9f7",
+                            "contrastRatio": 1.57,
+                            "fontSize": "38.8pt (51.6852px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "3:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"section-wrapper white-plate grid pp-com-td5ee2\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-td5ee2"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<h3 class=\"text-group-headline heading-text-size-headline-2\">Discover more ways to PayPal</h3>",
+                "target": [
+                    ".margin-below-textgroup-griditem > .text-group-alignment-start.text-group > div > .heading-text-size-headline-2"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.57 (foreground color: #c3c9d7, background color: #f9f9f7, font size: 38.8pt (51.6852px), font weight: normal). Expected contrast ratio of 3:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#a0a9c1",
+                            "bgColor": "#faf8f6",
+                            "contrastRatio": 2.22,
+                            "fontSize": "13.1pt (17.5268px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<a class=\"discovery-card discovery-card-type-inline discovery-card-size-small neutral-100-plate\" aria-label=\"Shop and buy\" href=\"https://www.paypal.com/us/digital-wallet/ways-to-pay\" target=\"_self\" data-pa-click=\"{&quot;link&quot;:&quot;DiscoveryLinkSection-Tertiary-Shop and buy&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" style=\"opacity: 0.600122; transform: translateX(-1.40622px) translateY(-1.40622px) scale(1) translateZ(0px);\" pa-marked=\"1\">",
+                                "target": [
+                                    "a[aria-label=\"Shop and buy\"]"
+                                ]
+                            },
+                            {
+                                "html": "<section class=\"section-wrapper white-plate grid pp-com-td5ee2\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-td5ee2"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<span class=\"heading-text-size-title\">Shop and buy</span>",
+                "target": [
+                    "a[aria-label=\"Shop and buy\"] > .discovery-card-container > .discovery-card-content > .heading-text-size-title"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#a0a9c1",
+                            "bgColor": "#faf8f6",
+                            "contrastRatio": 2.22,
+                            "fontSize": "13.1pt (17.5268px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<a class=\"discovery-card discovery-card-type-inline discovery-card-size-small neutral-100-plate\" aria-label=\"Send and receive money\" href=\"https://www.paypal.com/us/digital-wallet/send-receive-money\" target=\"_self\" data-pa-click=\"{&quot;link&quot;:&quot;DiscoveryLinkSection-Tertiary-Send and receive money&quot;,&quot;event_name&quot;:&quot;ppcom_textlink_cta_clicked&quot;}\" style=\"opacity: 0.600122; transform: translateX(-1.40622px) translateY(-1.40622px) scale(1) translateZ(0px);\" pa-marked=\"1\">",
+                                "target": [
+                                    "a[aria-label=\"Send and receive money\"]"
+                                ]
+                            },
+                            {
+                                "html": "<section class=\"section-wrapper white-plate grid pp-com-td5ee2\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-td5ee2"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<span class=\"heading-text-size-title\">Send and receive money</span>",
+                "target": [
+                    "a[aria-label=\"Send and receive money\"] > .discovery-card-container > .discovery-card-content > .heading-text-size-title"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#a0a9c1",
+                            "bgColor": "#faf8f6",
+                            "contrastRatio": 2.22,
+                            "fontSize": "13.1pt (17.5268px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<a class=\"discovery-card discovery-card-type-inline discovery-card-size-small neutral-100-plate\" aria-label=\"Manage your money\" href=\"https://www.paypal.com/us/digital-wallet/manage-money\" target=\"_self\" data-pa-click=\"{&quot;link&quot;:&quot;DiscoveryLinkSection-Tertiary-Manage your money&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" style=\"opacity: 0.600122; transform: translateX(-1.40622px) translateY(-1.40622px) scale(1) translateZ(0px);\" pa-marked=\"1\">",
+                                "target": [
+                                    "a[aria-label=\"Manage your money\"]"
+                                ]
+                            },
+                            {
+                                "html": "<section class=\"section-wrapper white-plate grid pp-com-td5ee2\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-td5ee2"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<span class=\"heading-text-size-title\">Manage your money</span>",
+                "target": [
+                    "a[aria-label=\"Manage your money\"] > .discovery-card-container > .discovery-card-content > .heading-text-size-title"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#a0a9c1",
+                            "bgColor": "#faf8f6",
+                            "contrastRatio": 2.22,
+                            "fontSize": "13.1pt (17.5268px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<a class=\"discovery-card discovery-card-type-inline discovery-card-size-small neutral-100-plate\" aria-label=\"The PayPal app\" href=\"https://www.paypal.com/us/digital-wallet\" target=\"_self\" data-pa-click=\"{&quot;link&quot;:&quot;DiscoveryLinkSection-Tertiary-The PayPal app&quot;,&quot;event_name&quot;:&quot;ppcom_button_cta_clicked&quot;}\" style=\"opacity: 0.600122; transform: translateX(-1.40622px) translateY(-1.40622px) scale(1) translateZ(0px);\" pa-marked=\"1\">",
+                                "target": [
+                                    "a[aria-label=\"The PayPal app\"]"
+                                ]
+                            },
+                            {
+                                "html": "<section class=\"section-wrapper white-plate grid pp-com-td5ee2\" style=\"opacity: 0.600122; transform: none;\">",
+                                "target": [
+                                    ".pp-com-td5ee2"
+                                ]
+                            },
+                            {
+                                "html": "<div class=\"document-body-root body-page\" template=\"rebrand\" data-hosted-by=\"contentful\" dir=\"ltr\">",
+                                "target": [
+                                    ".document-body-root"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<span class=\"heading-text-size-title\">The PayPal app</span>",
+                "target": [
+                    "a[aria-label=\"The PayPal app\"] > .discovery-card-container > .discovery-card-content > .heading-text-size-title"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #a0a9c1, background color: #faf8f6, font size: 13.1pt (17.5268px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(1)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#66a9ec",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 2.47,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.47 (foreground color: #66a9ec, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"https://www.paypal.com/us/webapps/mpp/ua/pp-rewards-program-tnc\" data-pa-click=\"{&quot;link&quot;:&quot;Disclosure-Link--Terms and merchant exclusions apply&quot;,&quot;event_name&quot;:&quot;ppcom_text_link_clicked&quot;}\" pa-marked=\"1\">Terms and merchant exclusions apply</a>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(1) > a"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.47 (foreground color: #66a9ec, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(2)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(3)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(4)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#66a9ec",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 2.47,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.47 (foreground color: #66a9ec, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"https://www.synchronycredit.com/gecrbterms/html/PayPalCashbackRewardsTerms.htm\" data-pa-click=\"{&quot;link&quot;:&quot;Disclosure-Link--Rewards Programs Terms&quot;,&quot;event_name&quot;:&quot;ppcom_text_link_clicked&quot;}\" pa-marked=\"1\">Rewards Programs Terms</a>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(4) > a"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.47 (foreground color: #66a9ec, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(5)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#66a9ec",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 2.47,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 2.47 (foreground color: #66a9ec, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a href=\"https://www.synchronybankterms.com/gecrbterms/html/PayPalCashbackApplyTerms_combo.htm\" data-pa-click=\"{&quot;link&quot;:&quot;Disclosure-Link--Terms and Rates&quot;,&quot;event_name&quot;:&quot;ppcom_text_link_clicked&quot;}\" pa-marked=\"1\">Terms and Rates</a>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(5) > a"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.47 (foreground color: #66a9ec, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(6)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">The Contactless Indicator mark, consisting of four graduating arcs, is a trademark owned by and used with permission of EMVCo, LLC.<!-- -->\n</p>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(7)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">The PayPal Cashback Mastercard is issued by Synchrony Bank pursuant to a license by Mastercard International Incorporated. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.<!-- -->\n</p>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(8)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(9)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">All screen images shown are for illustrative purposes only. Actual experience will be based on account activity.<!-- -->\n</p>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(10)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+                "any": [
+                    {
+                        "id": "color-contrast",
+                        "data": {
+                            "fgColor": "#6677a2",
+                            "bgColor": "#ffffff",
+                            "contrastRatio": 4.45,
+                            "fontSize": "10.5pt (14px)",
+                            "fontWeight": "normal",
+                            "messageKey": null,
+                            "expectedContrastRatio": "4.5:1"
+                        },
+                        "relatedNodes": [
+                            {
+                                "html": "<section class=\"footer-disclosure grid\">",
+                                "target": [
+                                    ".footer-disclosure"
+                                ]
+                            }
+                        ],
+                        "impact": "serious",
+                        "message": "Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+                    }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<p class=\"disclosure-item body-text-size-caption\">PayPal, Inc. NMLS ID #910457<!-- -->\n</p>",
+                "target": [
+                    ".disclosure-item.body-text-size-caption:nth-child(11)"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #6677a2, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+        ]
+    }
+]
